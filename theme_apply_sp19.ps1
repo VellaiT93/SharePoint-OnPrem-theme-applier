@@ -1,7 +1,7 @@
 ﻿Add-PSSnapin Microsoft.SharePoint.Powershell -ErrorAction SilentlyContinue
  
 #Variables for processing
-$WebURL = "http://pwwpk-pnet-ch/sites/home/beruflichevorsorge"
+$WebURL = "http://sp2019server/sites/it"
 
 #Get the Web
 $web = Get-SPWeb -Identity $WebURL
